@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("accessToken") var accessToken: String?
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if accessToken == nil {
+            LoginView()
+        } else {
+            MainView()
         }
-        .padding()
     }
 }
 

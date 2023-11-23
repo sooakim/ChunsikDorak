@@ -14,6 +14,33 @@
 		58EA0C412B0FB268008F6C52 /* ChunsikDorakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C402B0FB268008F6C52 /* ChunsikDorakTests.swift */; };
 		58EA0C4B2B0FB268008F6C52 /* ChunsikDorakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C4A2B0FB268008F6C52 /* ChunsikDorakUITests.swift */; };
 		58EA0C4D2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C4C2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift */; };
+		58EA0C5E2B0FBC38008F6C52 /* FoodRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C5D2B0FBC38008F6C52 /* FoodRepository.swift */; };
+		58EA0C622B0FBC85008F6C52 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C612B0FBC85008F6C52 /* Network.swift */; };
+		58EA0C672B0FBD22008F6C52 /* ConfirmTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C662B0FBD22008F6C52 /* ConfirmTokenResponse.swift */; };
+		58EA0C692B0FBD30008F6C52 /* ConfirmTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C682B0FBD30008F6C52 /* ConfirmTokenRequest.swift */; };
+		58EA0C6B2B0FBD43008F6C52 /* CommonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C6A2B0FBD43008F6C52 /* CommonRepository.swift */; };
+		58EA0C6D2B0FBE22008F6C52 /* GetFoodListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C6C2B0FBE22008F6C52 /* GetFoodListRequest.swift */; };
+		58EA0C6F2B0FBE35008F6C52 /* GetFoodListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C6E2B0FBE35008F6C52 /* GetFoodListResponse.swift */; };
+		58EA0C732B0FBEC7008F6C52 /* ShopRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C722B0FBEC7008F6C52 /* ShopRepository.swift */; };
+		58EA0C772B0FBEE9008F6C52 /* GetShopInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C762B0FBEE9008F6C52 /* GetShopInfoRequest.swift */; };
+		58EA0C792B0FBEFC008F6C52 /* GetShopInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C782B0FBEFC008F6C52 /* GetShopInfoResponse.swift */; };
+		58EA0C7B2B0FBF75008F6C52 /* GetCustomerInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C7A2B0FBF75008F6C52 /* GetCustomerInfoRequest.swift */; };
+		58EA0C7D2B0FBF7E008F6C52 /* GetCustomerInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C7C2B0FBF7E008F6C52 /* GetCustomerInfoResponse.swift */; };
+		58EA0C7F2B0FBFCC008F6C52 /* CustomerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C7E2B0FBFCC008F6C52 /* CustomerRepository.swift */; };
+		58EA0C842B0FC04C008F6C52 /* CategoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C832B0FC04C008F6C52 /* CategoryRepository.swift */; };
+		58EA0C862B0FC062008F6C52 /* GetCategoryGroupListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C852B0FC062008F6C52 /* GetCategoryGroupListRequest.swift */; };
+		58EA0C882B0FC0AA008F6C52 /* GetCategoryListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C872B0FC0A9008F6C52 /* GetCategoryListRequest.swift */; };
+		58EA0C8A2B0FC0F6008F6C52 /* GetCategoryGroupListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C892B0FC0F6008F6C52 /* GetCategoryGroupListResponse.swift */; };
+		58EA0C8C2B0FC102008F6C52 /* GetCategoryListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C8B2B0FC102008F6C52 /* GetCategoryListResponse.swift */; };
+		58EA0C8E2B0FC1F7008F6C52 /* GetShopListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C8D2B0FC1F7008F6C52 /* GetShopListRequest.swift */; };
+		58EA0C902B0FC200008F6C52 /* GetShopListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C8F2B0FC200008F6C52 /* GetShopListResponse.swift */; };
+		58EA0C922B0FC314008F6C52 /* CreateTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C912B0FC314008F6C52 /* CreateTokenRequest.swift */; };
+		58EA0C942B0FC320008F6C52 /* CreateTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C932B0FC320008F6C52 /* CreateTokenResponse.swift */; };
+		58EA0C972B0FC842008F6C52 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C962B0FC842008F6C52 /* LoginView.swift */; };
+		58EA0C992B0FC849008F6C52 /* ShopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C982B0FC849008F6C52 /* ShopListView.swift */; };
+		58EA0C9C2B0FC85B008F6C52 /* CustomerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C9B2B0FC85B008F6C52 /* CustomerInfoView.swift */; };
+		58EA0C9E2B0FC864008F6C52 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C9D2B0FC864008F6C52 /* MainView.swift */; };
+		58EA0CA12B0FCFA2008F6C52 /* GoodsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0CA02B0FCFA2008F6C52 /* GoodsItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +71,33 @@
 		58EA0C462B0FB268008F6C52 /* ChunsikDorakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChunsikDorakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EA0C4A2B0FB268008F6C52 /* ChunsikDorakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikDorakUITests.swift; sourceTree = "<group>"; };
 		58EA0C4C2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikDorakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58EA0C5D2B0FBC38008F6C52 /* FoodRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRepository.swift; sourceTree = "<group>"; };
+		58EA0C612B0FBC85008F6C52 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		58EA0C662B0FBD22008F6C52 /* ConfirmTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmTokenResponse.swift; sourceTree = "<group>"; };
+		58EA0C682B0FBD30008F6C52 /* ConfirmTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmTokenRequest.swift; sourceTree = "<group>"; };
+		58EA0C6A2B0FBD43008F6C52 /* CommonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonRepository.swift; sourceTree = "<group>"; };
+		58EA0C6C2B0FBE22008F6C52 /* GetFoodListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFoodListRequest.swift; sourceTree = "<group>"; };
+		58EA0C6E2B0FBE35008F6C52 /* GetFoodListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFoodListResponse.swift; sourceTree = "<group>"; };
+		58EA0C722B0FBEC7008F6C52 /* ShopRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopRepository.swift; sourceTree = "<group>"; };
+		58EA0C762B0FBEE9008F6C52 /* GetShopInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetShopInfoRequest.swift; sourceTree = "<group>"; };
+		58EA0C782B0FBEFC008F6C52 /* GetShopInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetShopInfoResponse.swift; sourceTree = "<group>"; };
+		58EA0C7A2B0FBF75008F6C52 /* GetCustomerInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerInfoRequest.swift; sourceTree = "<group>"; };
+		58EA0C7C2B0FBF7E008F6C52 /* GetCustomerInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerInfoResponse.swift; sourceTree = "<group>"; };
+		58EA0C7E2B0FBFCC008F6C52 /* CustomerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRepository.swift; sourceTree = "<group>"; };
+		58EA0C832B0FC04C008F6C52 /* CategoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
+		58EA0C852B0FC062008F6C52 /* GetCategoryGroupListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryGroupListRequest.swift; sourceTree = "<group>"; };
+		58EA0C872B0FC0A9008F6C52 /* GetCategoryListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryListRequest.swift; sourceTree = "<group>"; };
+		58EA0C892B0FC0F6008F6C52 /* GetCategoryGroupListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryGroupListResponse.swift; sourceTree = "<group>"; };
+		58EA0C8B2B0FC102008F6C52 /* GetCategoryListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoryListResponse.swift; sourceTree = "<group>"; };
+		58EA0C8D2B0FC1F7008F6C52 /* GetShopListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetShopListRequest.swift; sourceTree = "<group>"; };
+		58EA0C8F2B0FC200008F6C52 /* GetShopListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetShopListResponse.swift; sourceTree = "<group>"; };
+		58EA0C912B0FC314008F6C52 /* CreateTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTokenRequest.swift; sourceTree = "<group>"; };
+		58EA0C932B0FC320008F6C52 /* CreateTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTokenResponse.swift; sourceTree = "<group>"; };
+		58EA0C962B0FC842008F6C52 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		58EA0C982B0FC849008F6C52 /* ShopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListView.swift; sourceTree = "<group>"; };
+		58EA0C9B2B0FC85B008F6C52 /* CustomerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoView.swift; sourceTree = "<group>"; };
+		58EA0C9D2B0FC864008F6C52 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		58EA0CA02B0FCFA2008F6C52 /* GoodsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +148,8 @@
 		58EA0C2E2B0FB264008F6C52 /* ChunsikDorak */ = {
 			isa = PBXGroup;
 			children = (
+				58EA0C952B0FC838008F6C52 /* View */,
+				58EA0C592B0FBC1A008F6C52 /* Network */,
 				58EA0C2F2B0FB264008F6C52 /* ChunsikDorakApp.swift */,
 				58EA0C312B0FB264008F6C52 /* ContentView.swift */,
 				58EA0C332B0FB268008F6C52 /* Assets.xcassets */,
@@ -125,6 +181,175 @@
 				58EA0C4C2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift */,
 			);
 			path = ChunsikDorakUITests;
+			sourceTree = "<group>";
+		};
+		58EA0C592B0FBC1A008F6C52 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C802B0FC038008F6C52 /* Category */,
+				58EA0C632B0FBD09008F6C52 /* Common */,
+				58EA0C5C2B0FBC27008F6C52 /* Food */,
+				58EA0C5B2B0FBC24008F6C52 /* Shop */,
+				58EA0C5A2B0FBC1F008F6C52 /* Customer */,
+				58EA0C612B0FBC85008F6C52 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		58EA0C5A2B0FBC1F008F6C52 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C752B0FBED8008F6C52 /* Response */,
+				58EA0C742B0FBED4008F6C52 /* Request */,
+				58EA0C7E2B0FBFCC008F6C52 /* CustomerRepository.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		58EA0C5B2B0FBC24008F6C52 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C712B0FBEBA008F6C52 /* Request */,
+				58EA0C702B0FBEB6008F6C52 /* Response */,
+				58EA0C722B0FBEC7008F6C52 /* ShopRepository.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		58EA0C5C2B0FBC27008F6C52 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C602B0FBC56008F6C52 /* Request */,
+				58EA0C5F2B0FBC51008F6C52 /* Resopnse */,
+				58EA0C5D2B0FBC38008F6C52 /* FoodRepository.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		58EA0C5F2B0FBC51008F6C52 /* Resopnse */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C6E2B0FBE35008F6C52 /* GetFoodListResponse.swift */,
+			);
+			path = Resopnse;
+			sourceTree = "<group>";
+		};
+		58EA0C602B0FBC56008F6C52 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C6C2B0FBE22008F6C52 /* GetFoodListRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		58EA0C632B0FBD09008F6C52 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C652B0FBD15008F6C52 /* Response */,
+				58EA0C642B0FBD0D008F6C52 /* Request */,
+				58EA0C6A2B0FBD43008F6C52 /* CommonRepository.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		58EA0C642B0FBD0D008F6C52 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C912B0FC314008F6C52 /* CreateTokenRequest.swift */,
+				58EA0C682B0FBD30008F6C52 /* ConfirmTokenRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		58EA0C652B0FBD15008F6C52 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C662B0FBD22008F6C52 /* ConfirmTokenResponse.swift */,
+				58EA0C932B0FC320008F6C52 /* CreateTokenResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		58EA0C702B0FBEB6008F6C52 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C782B0FBEFC008F6C52 /* GetShopInfoResponse.swift */,
+				58EA0C8F2B0FC200008F6C52 /* GetShopListResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		58EA0C712B0FBEBA008F6C52 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C762B0FBEE9008F6C52 /* GetShopInfoRequest.swift */,
+				58EA0C8D2B0FC1F7008F6C52 /* GetShopListRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		58EA0C742B0FBED4008F6C52 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C7A2B0FBF75008F6C52 /* GetCustomerInfoRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		58EA0C752B0FBED8008F6C52 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C7C2B0FBF7E008F6C52 /* GetCustomerInfoResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		58EA0C802B0FC038008F6C52 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C822B0FC042008F6C52 /* Request */,
+				58EA0C812B0FC03D008F6C52 /* Resopnse */,
+				58EA0C832B0FC04C008F6C52 /* CategoryRepository.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		58EA0C812B0FC03D008F6C52 /* Resopnse */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C892B0FC0F6008F6C52 /* GetCategoryGroupListResponse.swift */,
+				58EA0C8B2B0FC102008F6C52 /* GetCategoryListResponse.swift */,
+			);
+			path = Resopnse;
+			sourceTree = "<group>";
+		};
+		58EA0C822B0FC042008F6C52 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C852B0FC062008F6C52 /* GetCategoryGroupListRequest.swift */,
+				58EA0C872B0FC0A9008F6C52 /* GetCategoryListRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		58EA0C952B0FC838008F6C52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C9F2B0FCF8F008F6C52 /* Goods */,
+				58EA0C962B0FC842008F6C52 /* LoginView.swift */,
+				58EA0C982B0FC849008F6C52 /* ShopListView.swift */,
+				58EA0C9B2B0FC85B008F6C52 /* CustomerInfoView.swift */,
+				58EA0C9D2B0FC864008F6C52 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58EA0C9F2B0FCF8F008F6C52 /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0CA02B0FCFA2008F6C52 /* GoodsItemView.swift */,
+			);
+			path = Goods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +482,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58EA0CA12B0FCFA2008F6C52 /* GoodsItemView.swift in Sources */,
+				58EA0C6D2B0FBE22008F6C52 /* GetFoodListRequest.swift in Sources */,
+				58EA0C9E2B0FC864008F6C52 /* MainView.swift in Sources */,
+				58EA0C902B0FC200008F6C52 /* GetShopListResponse.swift in Sources */,
+				58EA0C842B0FC04C008F6C52 /* CategoryRepository.swift in Sources */,
+				58EA0C882B0FC0AA008F6C52 /* GetCategoryListRequest.swift in Sources */,
+				58EA0C692B0FBD30008F6C52 /* ConfirmTokenRequest.swift in Sources */,
 				58EA0C322B0FB264008F6C52 /* ContentView.swift in Sources */,
+				58EA0C8A2B0FC0F6008F6C52 /* GetCategoryGroupListResponse.swift in Sources */,
+				58EA0C6F2B0FBE35008F6C52 /* GetFoodListResponse.swift in Sources */,
+				58EA0C942B0FC320008F6C52 /* CreateTokenResponse.swift in Sources */,
+				58EA0C992B0FC849008F6C52 /* ShopListView.swift in Sources */,
 				58EA0C302B0FB264008F6C52 /* ChunsikDorakApp.swift in Sources */,
+				58EA0C732B0FBEC7008F6C52 /* ShopRepository.swift in Sources */,
+				58EA0C922B0FC314008F6C52 /* CreateTokenRequest.swift in Sources */,
+				58EA0C8C2B0FC102008F6C52 /* GetCategoryListResponse.swift in Sources */,
+				58EA0C972B0FC842008F6C52 /* LoginView.swift in Sources */,
+				58EA0C7F2B0FBFCC008F6C52 /* CustomerRepository.swift in Sources */,
+				58EA0C7B2B0FBF75008F6C52 /* GetCustomerInfoRequest.swift in Sources */,
+				58EA0C672B0FBD22008F6C52 /* ConfirmTokenResponse.swift in Sources */,
+				58EA0C9C2B0FC85B008F6C52 /* CustomerInfoView.swift in Sources */,
+				58EA0C8E2B0FC1F7008F6C52 /* GetShopListRequest.swift in Sources */,
+				58EA0C772B0FBEE9008F6C52 /* GetShopInfoRequest.swift in Sources */,
+				58EA0C6B2B0FBD43008F6C52 /* CommonRepository.swift in Sources */,
+				58EA0C792B0FBEFC008F6C52 /* GetShopInfoResponse.swift in Sources */,
+				58EA0C7D2B0FBF7E008F6C52 /* GetCustomerInfoResponse.swift in Sources */,
+				58EA0C622B0FBC85008F6C52 /* Network.swift in Sources */,
+				58EA0C5E2B0FBC38008F6C52 /* FoodRepository.swift in Sources */,
+				58EA0C862B0FC062008F6C52 /* GetCategoryGroupListRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
