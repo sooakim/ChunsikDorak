@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("accessToken") var accessToken: String?
-    
+
     var body: some View {
         if accessToken == nil {
             LoginView()
