@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58EA0C302B0FB264008F6C52 /* ChunsikDorakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C2F2B0FB264008F6C52 /* ChunsikDorakApp.swift */; };
+		58EA0C322B0FB264008F6C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C312B0FB264008F6C52 /* ContentView.swift */; };
+		58EA0C342B0FB268008F6C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EA0C332B0FB268008F6C52 /* Assets.xcassets */; };
+		58EA0C372B0FB268008F6C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EA0C362B0FB268008F6C52 /* Preview Assets.xcassets */; };
+		58EA0C412B0FB268008F6C52 /* ChunsikDorakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C402B0FB268008F6C52 /* ChunsikDorakTests.swift */; };
+		58EA0C4B2B0FB268008F6C52 /* ChunsikDorakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C4A2B0FB268008F6C52 /* ChunsikDorakUITests.swift */; };
+		58EA0C4D2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA0C4C2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58EA0C3D2B0FB268008F6C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58EA0C242B0FB264008F6C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58EA0C2B2B0FB264008F6C52;
+			remoteInfo = ChunsikDorak;
+		};
+		58EA0C472B0FB268008F6C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58EA0C242B0FB264008F6C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58EA0C2B2B0FB264008F6C52;
+			remoteInfo = ChunsikDorak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58EA0C2C2B0FB264008F6C52 /* ChunsikDorak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunsikDorak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EA0C2F2B0FB264008F6C52 /* ChunsikDorakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikDorakApp.swift; sourceTree = "<group>"; };
+		58EA0C312B0FB264008F6C52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58EA0C332B0FB268008F6C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58EA0C362B0FB268008F6C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58EA0C3C2B0FB268008F6C52 /* ChunsikDorakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChunsikDorakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EA0C402B0FB268008F6C52 /* ChunsikDorakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikDorakTests.swift; sourceTree = "<group>"; };
+		58EA0C462B0FB268008F6C52 /* ChunsikDorakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChunsikDorakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EA0C4A2B0FB268008F6C52 /* ChunsikDorakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikDorakUITests.swift; sourceTree = "<group>"; };
+		58EA0C4C2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunsikDorakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58EA0C292B0FB264008F6C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EA0C392B0FB268008F6C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EA0C432B0FB268008F6C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58EA0C232B0FB264008F6C52 = {
+			isa = PBXGroup;
+			children = (
+				58EA0C2E2B0FB264008F6C52 /* ChunsikDorak */,
+				58EA0C3F2B0FB268008F6C52 /* ChunsikDorakTests */,
+				58EA0C492B0FB268008F6C52 /* ChunsikDorakUITests */,
+				58EA0C2D2B0FB264008F6C52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58EA0C2D2B0FB264008F6C52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C2C2B0FB264008F6C52 /* ChunsikDorak.app */,
+				58EA0C3C2B0FB268008F6C52 /* ChunsikDorakTests.xctest */,
+				58EA0C462B0FB268008F6C52 /* ChunsikDorakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58EA0C2E2B0FB264008F6C52 /* ChunsikDorak */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C2F2B0FB264008F6C52 /* ChunsikDorakApp.swift */,
+				58EA0C312B0FB264008F6C52 /* ContentView.swift */,
+				58EA0C332B0FB268008F6C52 /* Assets.xcassets */,
+				58EA0C352B0FB268008F6C52 /* Preview Content */,
+			);
+			path = ChunsikDorak;
+			sourceTree = "<group>";
+		};
+		58EA0C352B0FB268008F6C52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C362B0FB268008F6C52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58EA0C3F2B0FB268008F6C52 /* ChunsikDorakTests */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C402B0FB268008F6C52 /* ChunsikDorakTests.swift */,
+			);
+			path = ChunsikDorakTests;
+			sourceTree = "<group>";
+		};
+		58EA0C492B0FB268008F6C52 /* ChunsikDorakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58EA0C4A2B0FB268008F6C52 /* ChunsikDorakUITests.swift */,
+				58EA0C4C2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift */,
+			);
+			path = ChunsikDorakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58EA0C2B2B0FB264008F6C52 /* ChunsikDorak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EA0C502B0FB268008F6C52 /* Build configuration list for PBXNativeTarget "ChunsikDorak" */;
+			buildPhases = (
+				58EA0C282B0FB264008F6C52 /* Sources */,
+				58EA0C292B0FB264008F6C52 /* Frameworks */,
+				58EA0C2A2B0FB264008F6C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChunsikDorak;
+			productName = ChunsikDorak;
+			productReference = 58EA0C2C2B0FB264008F6C52 /* ChunsikDorak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58EA0C3B2B0FB268008F6C52 /* ChunsikDorakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EA0C532B0FB268008F6C52 /* Build configuration list for PBXNativeTarget "ChunsikDorakTests" */;
+			buildPhases = (
+				58EA0C382B0FB268008F6C52 /* Sources */,
+				58EA0C392B0FB268008F6C52 /* Frameworks */,
+				58EA0C3A2B0FB268008F6C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58EA0C3E2B0FB268008F6C52 /* PBXTargetDependency */,
+			);
+			name = ChunsikDorakTests;
+			productName = ChunsikDorakTests;
+			productReference = 58EA0C3C2B0FB268008F6C52 /* ChunsikDorakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58EA0C452B0FB268008F6C52 /* ChunsikDorakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EA0C562B0FB268008F6C52 /* Build configuration list for PBXNativeTarget "ChunsikDorakUITests" */;
+			buildPhases = (
+				58EA0C422B0FB268008F6C52 /* Sources */,
+				58EA0C432B0FB268008F6C52 /* Frameworks */,
+				58EA0C442B0FB268008F6C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58EA0C482B0FB268008F6C52 /* PBXTargetDependency */,
+			);
+			name = ChunsikDorakUITests;
+			productName = ChunsikDorakUITests;
+			productReference = 58EA0C462B0FB268008F6C52 /* ChunsikDorakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58EA0C242B0FB264008F6C52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					58EA0C2B2B0FB264008F6C52 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					58EA0C3B2B0FB268008F6C52 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 58EA0C2B2B0FB264008F6C52;
+					};
+					58EA0C452B0FB268008F6C52 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 58EA0C2B2B0FB264008F6C52;
+					};
+				};
+			};
+			buildConfigurationList = 58EA0C272B0FB264008F6C52 /* Build configuration list for PBXProject "ChunsikDorak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58EA0C232B0FB264008F6C52;
+			productRefGroup = 58EA0C2D2B0FB264008F6C52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58EA0C2B2B0FB264008F6C52 /* ChunsikDorak */,
+				58EA0C3B2B0FB268008F6C52 /* ChunsikDorakTests */,
+				58EA0C452B0FB268008F6C52 /* ChunsikDorakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58EA0C2A2B0FB264008F6C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA0C372B0FB268008F6C52 /* Preview Assets.xcassets in Resources */,
+				58EA0C342B0FB268008F6C52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EA0C3A2B0FB268008F6C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EA0C442B0FB268008F6C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58EA0C282B0FB264008F6C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA0C322B0FB264008F6C52 /* ContentView.swift in Sources */,
+				58EA0C302B0FB264008F6C52 /* ChunsikDorakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EA0C382B0FB268008F6C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA0C412B0FB268008F6C52 /* ChunsikDorakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EA0C422B0FB268008F6C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA0C4D2B0FB268008F6C52 /* ChunsikDorakUITestsLaunchTests.swift in Sources */,
+				58EA0C4B2B0FB268008F6C52 /* ChunsikDorakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58EA0C3E2B0FB268008F6C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58EA0C2B2B0FB264008F6C52 /* ChunsikDorak */;
+			targetProxy = 58EA0C3D2B0FB268008F6C52 /* PBXContainerItemProxy */;
+		};
+		58EA0C482B0FB268008F6C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58EA0C2B2B0FB264008F6C52 /* ChunsikDorak */;
+			targetProxy = 58EA0C472B0FB268008F6C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58EA0C4E2B0FB268008F6C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58EA0C4F2B0FB268008F6C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58EA0C512B0FB268008F6C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChunsikDorak/Preview Content\"";
+				DEVELOPMENT_TEAM = SM396Z3QTU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sooakim.ChunsikDorak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58EA0C522B0FB268008F6C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChunsikDorak/Preview Content\"";
+				DEVELOPMENT_TEAM = SM396Z3QTU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sooakim.ChunsikDorak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58EA0C542B0FB268008F6C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM396Z3QTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sooakim.ChunsikDorakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChunsikDorak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChunsikDorak";
+			};
+			name = Debug;
+		};
+		58EA0C552B0FB268008F6C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM396Z3QTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sooakim.ChunsikDorakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChunsikDorak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChunsikDorak";
+			};
+			name = Release;
+		};
+		58EA0C572B0FB268008F6C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM396Z3QTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sooakim.ChunsikDorakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChunsikDorak;
+			};
+			name = Debug;
+		};
+		58EA0C582B0FB268008F6C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM396Z3QTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sooakim.ChunsikDorakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChunsikDorak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58EA0C272B0FB264008F6C52 /* Build configuration list for PBXProject "ChunsikDorak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EA0C4E2B0FB268008F6C52 /* Debug */,
+				58EA0C4F2B0FB268008F6C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EA0C502B0FB268008F6C52 /* Build configuration list for PBXNativeTarget "ChunsikDorak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EA0C512B0FB268008F6C52 /* Debug */,
+				58EA0C522B0FB268008F6C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EA0C532B0FB268008F6C52 /* Build configuration list for PBXNativeTarget "ChunsikDorakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EA0C542B0FB268008F6C52 /* Debug */,
+				58EA0C552B0FB268008F6C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EA0C562B0FB268008F6C52 /* Build configuration list for PBXNativeTarget "ChunsikDorakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EA0C572B0FB268008F6C52 /* Debug */,
+				58EA0C582B0FB268008F6C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58EA0C242B0FB264008F6C52 /* Project object */;
+}
